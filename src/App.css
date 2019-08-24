@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-image: url("./images/starWar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Information {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Weather {
+  display: flex;
+  justify-content: center;
+}
+
+.dataWrapper {
+  width: 350px;
+  list-style-type: none;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+li {
+  font-size: 20px;
+  color: red;
+}
+
+h1, h2 {
+  color: lightgray;
+  text-align: center;
 }
